@@ -5,14 +5,13 @@
 ##写在前面：
 
 1.文件夹内包括.pyw文件,以及示例材料.  
-2.示例文件中，pet.png/gif，close_pet.png/gif，icon.png均可自己替换。icon为系统托盘图标，pet.png/gif为追逐模式的运动主体, close_pet.png/gif为固定模式下的默认展示图片  
-3.如果选择exe文件，各种依赖环境已经被打包，无需单独下载，可直接双击运行；缺点是仅限win系统（linux也不可以）  
-4.对mac or linux系统：  
+2.示例文件中，pet.png/gif，close_pet.png/gif，icon.png均可自己替换。icon为系统托盘图标，pet.png/gif为追逐模式的运动主体, close_pet.png/gif为固定模式下的默认展示图片   
+3.对mac or linux系统：  
 	-3.1需要保证python版本>=3.9，以及pip install PyQt5  
 	-3.2requests http json库一般是系统内置，无需单独用pip下载  
 	-3.3以上条件均满足后，请使用python打开.pyw文件（一般用户双击即可，如电脑的python解释器并不常用，请 右键-打开方式-python）  
-5.能力有限，对测试的bug可能无法完全解决，请谅解！给您滑跪一个  
-6.基本说明：  
+4.能力有限，对测试的bug可能无法完全解决，请谅解！给您滑跪一个  
+5.基本说明：  
 	-6.1宠物主体可以右键打开选项菜单  
 	-6.2系统右下角托盘也可以右键打开选项菜单，退出选项在托盘的右键菜单处  
 
@@ -20,6 +19,7 @@
 
 1.增加了Agent调用方法，从而我们的宠物不再是花瓶，而是一个拥有专业知识的桌面随宠  
 2.将参数路径config化
+3.从本版本起，我们将重命名为Pgent，寓意Pet Agent.
 
 
 ##1.3版本更新（飞猪版本）  
