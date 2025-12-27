@@ -12,7 +12,7 @@
   "remote_agent": {
     "api_url": "http://127.0.0.1:8005/chat", 
     "request_method": "POST",
-    "timeout": 60, 
+    "timeout": 600, 
     "headers": {
       "Content-Type": "application/json"
     },
