@@ -1,46 +1,44 @@
 # Pet_Friend
 
-##创作者：xhy, One King
+## Created by: xhy, One King
 
-##写在前面：
+## Foreword:
 
-1.文件夹内包括.pyw文件,以及示例材料.  
-2.示例文件中，pet.png/gif，close_pet.png/gif，icon.png均可自己替换。icon为系统托盘图标，pet.png/gif为追逐模式的运动主体, close_pet.png/gif为固定模式下的默认展示图片   
-3.能力有限，对测试的bug可能无法完全解决，请谅解！给您滑跪一个  
-4.基本说明：  
-	-4.1宠物主体可以右键打开选项菜单  
-	-4.2系统右下角托盘也可以右键打开选项菜单，退出选项在托盘的右键菜单处  
+1. The folder includes .pyw files and example materials.  
+2. In the example files, pet.png/gif, close_pet.png/gif, and icon.png can be replaced as desired. The icon is the system tray icon, pet.png/gif is the moving object in chase mode, and close_pet.png/gif is the default display image in fixed mode.  
+3. Our capabilities are limited, and we may not be able to completely resolve all bugs found during testing. We apologize in advance!  
+4. Basic instructions:  
+	- 4.1 Right-click on the pet body to open the options menu.  
+	- 4.2 Right-click on the system tray icon in the bottom right corner to also open the options menu. The exit option is located in the tray's right-click menu.  
 
-##1.5版本更新（Langent版本）  
+## Version 1.5 Update (Langent Edition)  
 
-1. 本次更新修复了一些已知bug  
-2. 团队成员致力于增强Agent的能力，我们基于LangChain对上一版本的Agent系统进行了改造，并开源相关代码，使得用户可以基于自己的本地知识库构建个性化的Agent  
-3. 后续版本前瞻：  
-  -3.1 根据用户反馈，我们会考虑把互动功能扩展  
-  -3.2 pet主题的趣味性，美观性也会纳入考虑范围   
-  -3.3 多Agent协同的可能性：考虑到单一Agent可能出现功能混乱，团队正致力于LangGraph的开发流程  
+1. This update fixes some known bugs.  
+2. The team is dedicated to enhancing the Agent's capabilities. We have revamped the Agent system from the previous version based on LangChain and are open-sourcing the related code, allowing users to build personalized Agents based on their own local knowledge base.  
+3. Future version preview:  
+  - 3.1 Based on user feedback, we are considering expanding interactive features.  
+  - 3.2 The fun and aesthetic appeal of pet themes will also be taken into consideration.  
+  - 3.3 The possibility of multi-Agent collaboration: Considering that a single Agent may experience functional confusion, the team is working on a LangGraph development workflow.  
 
+## Version 1.4 Update (Agent Edition)  
 
-##1.4版本更新（Agent版本）  
+1. Added Agent invocation methods, so our pet is no longer just a decorative item but a desktop companion with professional knowledge.  
+2. Parameter paths are now configurable.  
+3. Starting from this version, we are renaming it to Pgent, meaning Pet Agent.  
 
-1.增加了Agent调用方法，从而我们的宠物不再是花瓶，而是一个拥有专业知识的桌面随宠  
-2.将参数路径config化  
-3.从本版本起，我们将重命名为Pgent，寓意Pet Agent.
+## Version 1.3 Update (Flying Pig Edition)  
 
+1. Replaced the original static images with gifs, supporting extensions.  
+2. The icon file is now packaged separately, supporting custom system tray icons (you can even use WeChat's icon, but I hope they don't send me a lawyer's letter).  
+3. The example gif in this version is a flying pig.  
+4. This program is completely free! Anyone charging for it is a dishonest scammer.  
+5. In this version, the moonshot API belongs to the author. Please use the "Let's Chat Together (Beta)" feature responsibly, all beta testers.  
+6. On Mac, there is an issue where the pet body may not switch positions as windows are switched. We aim to address this in future versions.  
+Note: In future versions, we will merge the static image functionality from version 1.2 to achieve multimodal fortune attraction (just kidding).  
 
-##1.3版本更新（飞猪版本）  
+## Version 1.2 Update (Fortune Edition)  
 
-1.将原有静态图片替换为gif，支持扩展  
-2.icon文件单独分装，支持自定义系统托盘图标（换成微信也可以，希望别给我律师函）  
-3.本版本实例gif为会飞的猪  
-4.本程序完全免费！任何收费的都是耍流氓大骗子。  
-5.该版本中，moonshot的api为作者本人的，请各位内测用户合理使用“一起来聊天（测试版）”  
-6.mac存在pet主体无法随窗口切换而转换位置的情况，争取在后续版本处理  
-note: 后续版本中，将把1.2版本的静态图片功能合并，实现多模态招财（误）  
-
-
-##1.2版本更新（财运版本）  
-1.增加了追逐模式和固定模式下的区分  
-2.增加了大模型的API调用，从而本程序不再是没实际用处的花瓶  
-3.增加了喂食、洗澡等选项（虽然没有实际用处），供未来开发（有没有未来开发另说）  
-4.本版本的主体为财运  
+1. Added differentiation between chase mode and fixed mode.  
+2. Added large model API calls, so this program is no longer just a useless decorative item.  
+3. Added options like Feed and Bathe (though they are currently non-functional) for potential future development (whether that development happens is another matter).  
+4. The main character in this version is Fortune.
