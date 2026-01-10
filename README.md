@@ -11,6 +11,12 @@
 	- 4.1 Right-click on the pet body to open the options menu.  
 	- 4.2 Right-click on the system tray icon in the bottom right corner to also open the options menu. The exit option is located in the tray's right-click menu.  
 
+## Version 1.6 Update (Advanced Screen Control)  
+
+1. Fixed several known bugs.  
+2. Replaced LangChain with LangGraph to prepare for future complex Agent systems.  
+3. The chat interface is more modern.
+
 ## Version 1.5 Update (Langent Edition)  
 
 1. This update fixes some known bugs.  

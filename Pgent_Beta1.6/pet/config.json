@@ -5,9 +5,9 @@
     "move_speed": 300, 
     "timer_interval": 20, 
     "distance_threshold": 30,
-    "original_gif": "./Toutou.gif", 
-    "close_gif": "./close_pet.gif",
-    "tray_icon": "./icon.png"
+    "original_gif": "../data/Toutou.gif", 
+    "close_gif": "../data/close_pet.gif",
+    "tray_icon": "../data/icon.png"
   },
   "remote_agent": {
     "api_url": "http://127.0.0.1:8005/chat", 
